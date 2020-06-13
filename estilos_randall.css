@@ -57,12 +57,19 @@
     display: inline-block;
     margin: 20px 50px;
     padding: 20px ;
-
+    
     border-radius: 92px 0px 106px 10px;
     -moz-border-radius: 92px 0px 106px 10px;
     -webkit-border-radius: 92px 0px 106px 10px;
- 
+    position: relative;
+    transition: all 1s ;
 
+}
+
+.articulos:hover{
+    padding: 35px;
+    bottom: 20px ;
+    box-shadow: 50px 10px 61px 0px rgba(0,0,0,0.5);
 }
 
 .articulos__titulo{
@@ -71,6 +78,8 @@
     font-size: 20px ;
 
 }
+
+
 
 .pie_pagina{
     font-family: monospace;
@@ -95,5 +104,7 @@ body {
 
 
 }
+
+
 
 
