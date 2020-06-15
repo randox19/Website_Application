@@ -87,14 +87,14 @@ a{
 .articulos__titulo{
     text-align: center;
     color: #1e0aca;
-    font-size: 20px ;
+    font-size: 30px ;
 
 }
 
 .articulos p {
 
-    text-align: center;
-    color: #1e0aca;
+    
+    color: yellow;
     font-size: 30px ;
 
 
@@ -102,9 +102,24 @@ a{
 }
 
 .articulos button{
+    position: relative;
+    font-weight: 900;
+    font-size: 20px;
     display: flex;
+   margin-top: 20px;
     padding: 10px 40px;
+    border-radius:  20px;
+    background-color: lawngreen;
+    color: black;
 }
+.articulos button:hover{
+
+    background-color: rgb(14, 36, 82);
+    color: white;
+}
+
+
+
 
 .pie_pagina{
     font-family: monospace;
