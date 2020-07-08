@@ -1,0 +1,15 @@
+.site-header{
+    background-color: #333333;;
+    padding: 1rem 0 3rem 0;
+}
+
+.site-footer{
+    background-color: #333333;
+    margin:0; /* Para eliminar la línea de abajo */
+    /* ya que antes había dejado un margin 2rem en seccion*/
+}
+
+.copyright{
+    margin:0;
+    color:white;
+}
